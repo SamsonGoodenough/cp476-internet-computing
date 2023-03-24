@@ -4,8 +4,8 @@ include __DIR__ . '/Helper/DotEnv.php';
 (new DotEnv(__DIR__ . '/.env'))->load();
 
 $host = 'db';
-$user = getenv('MYSQL_USER');
-$pass = getenv('MYSQL_PASSWORD');
+$user = 'root';
+$pass = getenv('MYSQL_ROOT_PASSWORD');
 
 // check the MySQL connection status
 $conn = new mysqli($host, $user, $pass, 'test');
