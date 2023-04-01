@@ -37,7 +37,7 @@ Navigate to `index.php` this is where you will be coding.
 To use MySQL to create tables and data, you'll need to get inside the docker container to access MySQL. Open Docker Desktop and select the 3 dots beside `db` and "Open in terminal"
 <img src="https://i.imgur.com/E32bZo6.png">
 
-From inside you can run `mysql -uroot -ptest_pass` to access your instance of MySQL, in `index.php` mysqli is currently looking for a database called `test`, why don't we make that database as practice. 
+From inside you can run `mysql -uroot -ppassword` to access your instance of MySQL, in `index.php` mysqli is currently looking for a database called `test`, why don't we make that database as practice. 
 
 1. Create database with `CREATE DATABASE test;`
 2. Select your database with `USE test;`
