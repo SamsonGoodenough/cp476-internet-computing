@@ -9,6 +9,8 @@ $db_name = 'root';
 $db_user = 'CP476';
 $db_password = 'password';
 
+echo test 
+
 // Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $username = $_POST['username'];
