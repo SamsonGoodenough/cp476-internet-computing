@@ -9,6 +9,7 @@ services:
       - db
     volumes:
       - ./php/src:/var/www/html/
+      - ./php/src:/authentication:/var/www/html/authentication
     ports:
       - 8000:80
 
